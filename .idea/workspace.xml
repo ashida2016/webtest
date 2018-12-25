@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0211b80-fa3e-44b9-9e5f-85737d221316" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/mystyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myweb/static/myweb/css/sample.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myweb/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myweb/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dbtest.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dbtest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webtest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/webtest/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,31 +23,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
+          <entry key="css" value="2" />
           <entry key="html" value="5" />
           <entry key="py" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="2" />
           <entry key="HTML" value="5" />
           <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="36" />
+          <entry key="css" value="184" />
           <entry key="dummy" value="6" />
           <entry key="html" value="183" />
           <entry key="py" value="394" />
+          <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="36" />
+          <entry key="CSS" value="184" />
           <entry key="HTML" value="183" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="PLAIN_TEXT" value="15" />
           <entry key="Python" value="394" />
         </counts>
       </usages-collector>
@@ -62,11 +56,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webtest/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+              <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myweb/static/myweb/css/sample.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="655" column="35" lean-forward="true" selection-start-line="655" selection-start-column="35" selection-end-line="655" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -132,18 +135,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myweb/search2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#25#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myweb/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
@@ -174,6 +165,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>APPEND</find>
+      <find>;</find>
+      <find>}</find>
+      <find>{</find>
+      <find>,</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,6 +190,7 @@
         <option value="$PROJECT_DIR$/webtest/urls.py" />
         <option value="$PROJECT_DIR$/myweb/mystyle.css" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/myweb/static/myweb/css/sample.css" />
       </list>
     </option>
   </component>
@@ -234,6 +230,13 @@
               <item name="webtest" type="462c0819:PsiDirectoryNode" />
               <item name="myweb" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webtest" type="462c0819:PsiDirectoryNode" />
+              <item name="myweb" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="myweb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -305,6 +308,14 @@
       <option name="presentableId" value="Default" />
       <updated>1545627059271</updated>
     </task>
+    <task id="LOCAL-00001" summary="first web">
+      <created>1545711127572</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545711127572</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -339,6 +350,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first web" />
+    <option name="LAST_COMMIT_MESSAGE" value="first web" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/manage.py">
@@ -445,7 +460,14 @@
     <entry file="file://$PROJECT_DIR$/webtest/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+          <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myweb/static/myweb/css/sample.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="655" column="35" lean-forward="true" selection-start-line="655" selection-start-column="35" selection-end-line="655" selection-end-column="35" />
         </state>
       </provider>
     </entry>
