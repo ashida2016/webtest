@@ -22,6 +22,7 @@ from myweb import search2
 
 
 urlpatterns = [
+    path('', views.index),
     path('admin/', admin.site.urls),
     path('hello/', views.hello),
     path('ashida/', views.ashida),

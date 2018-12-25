@@ -5,6 +5,11 @@ from django.http import HttpResponse
 # Create your views here.
 
 
+# 所有测试网页的入口
+def index(request):
+    return render(request, 'index.html')
+
+
 # 第一个 view
 def hello(request):
     return HttpResponse("Hello world ! ")
