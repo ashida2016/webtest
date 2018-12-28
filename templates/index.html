@@ -1,17 +1,20 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <title>ashida webtest</title>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'myweb/css/sample.css' %}">
 </head>
 <body>
 
     <h2 style="background-color:DeepSkyBlue;font-family:arial;color:red;font-size:20px;">测试网页列表</h2>
-    <ul>
-    <li><a href="admin/">admin</a></li>
-    <li>Milk</li>
-    </ul>
-
+    <div class="ion-alert">
+        <ul>
+            <li><a href="admin/">admin</a></li>
+            <li>Milk</li>
+        </ul>
+    </div>
 </body>
 </html>
